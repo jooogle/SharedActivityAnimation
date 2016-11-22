@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="120dp"
+	android:clickable="true"
+	android:foreground="?android:selectableItemBackground"
+	>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		>
+
+		<ImageView
+			android:id="@+id/ivPortrait"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scaleType="fitStart"
+			android:src="@drawable/image"
+			android:transitionName="portrait"
+			/>
+
+		<TextView
+			android:id="@+id/tvName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			tools:text="Александр Чех"
+			/>
+
+	</FrameLayout>
+
+</android.support.v7.widget.CardView>
